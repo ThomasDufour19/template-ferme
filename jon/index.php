@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE php>
+<php lang="en">
    <head>
       <!-- basic -->
       <meta charset="utf-8">
@@ -30,7 +30,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
    </head>
    <!-- body -->
-   <body class="main-layout">
+   <body class="main-layout products_page">
       <!-- loader  -->
       <div class="loader_bg">
          <div class="loader"><img src="images/loading.gif" alt="#" /></div>
@@ -46,7 +46,7 @@
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
-                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                              <a href="index.php"><img src="images/logo.png" alt="#" /></a>
                            </div>
                         </div>
                      </div>
@@ -58,20 +58,20 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                            <ul class="navbar-nav mr-auto">
+                              <li class="nav-item ">
+                                 <a class="nav-link" href="index.php"> Home  </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="herds.php">Herds</a>
+                              </li>
                               <li class="nav-item active">
-                                 <a class="nav-link" href="index.html"> Home  </a>
+                                 <a class="nav-link" href="cereals.php">Cereals</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="about.html">About</a>
+                                 <a class="nav-link" href="orders.php">Orders</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="products.html">Products </a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="blog.html">Blog</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="contact.html">Contact</a>
+                                 <a class="nav-link" href="contact.php">Contact</a>
                               </li>
                               <li class="nav-item d_none">
                                  <a class="nav-link" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
@@ -87,9 +87,6 @@
             </div>
          </div>
       </header>
-      <!-- end header inner -->
-      <!-- end header -->
-      <!-- banner -->
       <section class="banner_main">
          <div class="container">
             <div class="row">
@@ -406,11 +403,11 @@
                   <div class="col-md-3 border_right">
                      <h3>Menus</h3>
                      <ul class="link">
-<li><a href="index.html">Home</a></li>                             
-<li><a href="about.html">About</a></li>                                                     
-<li><a href="products.html">Products</a></li>                             
-<li><a href="blog.html">Blog</a></li>
-<li><a href="contact.html">Contact</a></li>
+<li><a href="index.php">Home</a></li>                             
+<li><a href="herds.php">About</a></li>                                                     
+<li><a href="cereals.php">Products</a></li>                             
+<li><a href="orders.php">Blog</a></li>
+<li><a href="contact.php">Contact</a></li>
                      </ul>
                   </div>
                   <div class="col-md-3">
@@ -426,7 +423,7 @@
                <div class="container">
                   <div class="row">
                      <div class="col-md-12">
-                        <p>Copyright 2019 All Right Reserved By <a href="https://html.design/"> Free  html Templates</a></p>
+                        <p>Copyright 2019 All Right Reserved By <a href="https://php.design/"> Free  php Templates</a></p>
                      </div>
                   </div>
                </div>
@@ -443,5 +440,5 @@
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
    </body>
-</html>
+</php>
 
